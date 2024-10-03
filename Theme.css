@@ -82,6 +82,94 @@
 	--icon-spin-transition: none;
 }
 
+html:not(.is-mobile) .avatarWrapper_b2ca13 .nameTag_b2ca13,
+.winButton_a934d8 > svg > :is(rect, polygon),
+.listItem_c96c45:has(.guildSeparator_d0c57e),
+.darkCardBackground_c23530,
+.listItem_c96c45:has(.guildSeparator_d0c57e) + div[aria-label]:empty,
+.headerImage_a3a4ce,
+.attachment_b52bef:not(.attachmentContentItem__47a25) .icon_b52bef,
+.attachment_b52bef:not(.attachmentContentItem__47a25) .filenameWrapper_b52bef,
+.section_d7a21f:has(> .roles_fa2f72:empty),
+.listItem_c96c45:has(.guildSeparator_d0c57e)
+  + div[aria-label]::-webkit-scrollbar,
+.item_eb92a8:not([aria-checked="true"]) .radioBar_eb92a8 > div:not([class]),
+.applicationStreamingPreviewWrapper_cd82a7:has(.emptyPreviewImage_ed81cc),
+.leftDivider_d8c748,
+.userProfileModalOuter_c69a7b .divider_b9fccc {
+  display: none !important;
+}
+.avatarWrapper_f89da9,
+.customItem_d90b3d:hover,
+.contentRegion_c25c6d {
+  z-index: 1;
+}
+.container_ee69e0
+  + .panels_a4d4d9
+  > .container_b2ca13
+  .avatarWrapper_b2ca13
+  ~ .flex_bba380 {
+  margin-left: auto;
+}
+.panels_a4d4d9 .avatarWrapper_b2ca13 {
+  width: 100%;
+  max-width: unset;
+  min-width: unset !important;
+  padding: 0;
+  border-radius: var(--cyan-radius-small) !important;
+  margin: 0;
+  background: none;
+  box-shadow: none;
+  transition: 0.2s ease;
+  cursor: pointer;
+  height: 56px;
+  justify-content: center;
+}
+.panels_a4d4d9 .avatarWrapper_b2ca13:hover {
+  box-shadow: var(--cyan-interface-shadow);
+  background: var(--cyan-second-layer);
+}
+.avatarWrapperNormal_f89da9,
+#profile-customization-tab .avatarUploaderInner_ab876d {
+  background-color: var(--cyan-second-layer);
+  box-shadow: 0 0 0 5px var(--cyan-second-layer);
+}
+.avatarWrapperNormal_f89da9 .wrapper_c51b4e::after {
+  content: "";
+  border-radius: var(--cyan-radius-round-interface);
+  width: 28px;
+  height: 28px;
+  background-color: var(--cyan-second-layer);
+  display: flex;
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+  z-index: -1;
+}
+.container_b2ca13:has(.flex_bba380 > .button_f67531:nth-child(4))
+  .avatarWrapper_b2ca13 {
+  width: calc((100% / 5) - 14px);
+  min-width: unset !important;
+}
+.container_b2ca13:has(.flex_bba380 > .button_f67531:nth-child(5))
+  .avatarWrapper_b2ca13 {
+  width: calc((100% / 6) - 14px);
+}
+.contentPanel_f62afd,
+.backgroundFlash_d5deea .messageContent_f9f2ca:not(.repliedTextContent_f9f2ca),
+.bd-name,
+.contents_dd4f85:has(.spotifyButtonLogo__6ca34, .listenAlongIcon_e364e3),
+.avatarWrapperNormal_f89da9 .wrapper_c51b4e,
+.nowPlayingColumn_c2739c .itemCard_f02fcf,
+#app-mount .contentPanel_d576e9,
+#app-mount .container_d576e9,
+.banner_d00e26,
+.featureCards_d00e26,
+.systemMessage_d5deea .messageContent_f9f2ca,
+.colorwaysCreator-settingCat:has(> .colorwayCreator-colorPreviews) {
+  overflow: visible;
+}
+
 /* modify colors */
 #app-mount .container_ee69e0 /* channel list */,
 .privateChannels_f0963d /* dms list */,
