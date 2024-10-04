@@ -895,6 +895,12 @@ button.button_f67531 /* make user panel buttons round */ {
 .theme-light {
 	--text-link: var(--accent-5);
 }
+.panels_a4d4d9 .wrapper_adcaac:not(:empty),
+.root_f9a4c9,
+.animatorTop_f88ae3,
+.noticeRegion_c25c6d {
+  animation: animbottom.4s ease;
+}
 html.theme-light,
 .theme-dark {
 	--activity-card-background: var(--bg-3);
