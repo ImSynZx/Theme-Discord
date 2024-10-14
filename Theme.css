@@ -1220,3 +1220,45 @@ html.theme-light,
 
 	--white-500: var(--text-1);
 }
+#app-mount .guilds_a4d4d9[class*=listItem]:not([class*=listItemWrapper]) {
+    border-radius: 2.5px;
+    padding: 0;
+}
+
+#app-mount .guilds_a4d4d9 .scroller_fea3ef>div:not([class]):not([style]) [class*=listItem]:not([class*=listItemWrapper]) {
+    margin: 3.5px 0px 3.5px 0px;
+}
+
+#app-mount .guilds_a4d4d9 .scroller_fea3ef>div:not([class]):not([style])>.wrapper_bc7085>.expandedFolderBackground_bc7085:not(.collapsed_bc7085)+.listItem_c96c45 {
+    margin: 2.5px 0px 0px 0px;
+}
+
+
+#app-mount .guilds_a4d4d9 .scroller_fea3ef>div:not([class]):not([style])>.wrapper_bc7085>.listItem_c96c45>div[class^=pill] {
+    top: 0px;
+}
+.guilds_a4d4d9 svg[width="48"],
+.guilds_a4d4d9 .wrapper_c5f96a,
+.guilds_a4d4d9 [class*=guildsError_],
+.guilds_a4d4d9 div[class^=folder_],
+.bd-minimal .guilds_a4d4d9 .wrapper_c5f96a,
+.bd-minimal .guilds_a4d4d9 [class*=guildsError_],
+.bd-minimal .guilds_a4d4d9 svg[width="48"] {
+    width: var(--ServerSize);
+    height: var(--ServerSize);
+}
+.guilds_a4d4d9 div[style^="opacity: 1; height: 56px; transform: scale(1);"] {
+    height: unset !important
+}
+
+.guilds_a4d4d9 .scroller_fea3ef>div:not([class]):not([style])+div[class^=tutorialContainer] div[class^=circleIconButton_],
+.guilds_a4d4d9 .scroller_fea3ef>div:not([class]):not([style])+div[class^=tutorialContainer]+.listItem_c96c45 div[class^=circleIconButton_] {
+    color: var(--Text);
+}div[class^=circleIconButton_],
+.guilds_a4d4d9 .scroller_fea3ef>div:not([class]):not([style])+div[class^=tutorialContainer] div[class^=circleIconButton_],
+.guilds_a4d4d9 .scroller_fea3ef>div:not([class]):not([style])+div[class^=tutorialContainer]+.listItem_c96c45 div[class^=circleIconButton_],
+div[class^=folderIconWrapper]:not([style])>.closedFolderIconWrapper_bc7085,
+div[class^=folderIconWrapper][style="background-color: rgba(114, 137, 218, 0.4);"] {
+    background-color: var(--Primary);
+    border-radius: var(--Rounding);
+}
