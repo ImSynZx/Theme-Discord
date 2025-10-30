@@ -122,6 +122,17 @@ body {
 
 }
 
+.chat_f75fb0 {
+    margin-left: var(--gap, 0px) !important;
+    margin-top: var(--gap, 0px) !important;
+}
+
+.sidebar__5e434 {
+    margin-top: -30px !important;
+    height: calc(100% + 6px) !important;
+}
+
+
 /* color options */
 :root {
     --colors: on;
@@ -295,4 +306,3 @@ body {
     padding: 0 !important;
     z-index: 1000;
 }
-
